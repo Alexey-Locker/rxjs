@@ -1,0 +1,33 @@
+#root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer__controls>input {
+    padding: 3px 20px;
+    margin-right: 5px;
+    width: 70px;
+    color: white;
+    cursor: pointer;
+    background-color: #1f415f;
+    border: 0;
+    border-radius: 5px;
+}
+
+.timer__controls>input:active {
+    background-color: #2b2b49;
+}
+
+.timer__controls>input:last-child {
+    margin: 0;
+}
